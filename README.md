@@ -1,29 +1,29 @@
-# Gis_profiles_app
-This is a Gis profile web app, that aims to provide Google india scholarship scholars profile to users or recruiter. Also it comes with some advance functionalities for app users and recruiter too, make the work simple and more. (Coming soon)
+# Gis_web_app
+This is a GIS web app, that aims to provide a lot of different services by Google india scholarship scholars.
+It also provides profiles of scholars and top performers to clients and recruiters to make their work simple. Also it comes with some advance functionalities for app users, clients and recruiters too, make the work simple.
+(Coming soon)
 
 ## Introduction
 
 This application is a collaborative project made by the Google India scholars Web Developers.
 
-## Collaborators
-
 ### Moderator
 
 The moderator of this project is [@Ckbhatia](https://github.com/Ckbhatia).
 
-### Co-Moderators
+### Collaborators
 
-The co-moderators of this project are:
+The collaborators of this project are:
 
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
-* [@Unknown](https://github.com/)
+* [@sb39](https://github.com/sb39)
+* [@RohitThapa](https://github.com/RohitThapa)
+* [@prarora98](https://github.com/prarora98)
+* [@Kundan28](https://github.com/Kundan28)
+* [@revanthgss](https://github.com/revanthgss)
+* [@RuhanRK](https://github.com/RuhanRK)
+* [@manikkaushik](https://github.com/manikkaushik)
+* [@vattytrivedi](https://github.com/vattytrivedi)
+* [@manojkumaraut](https://github.com/manojkumaraut)
 
 ## Technologies
 
@@ -37,15 +37,15 @@ The technologies which will be used in developing this application are as follow
 You can find the project's wireframe below which depicts the basic flow of our web application.
 
 ## Project Wireframe
-![wireframe - flow](https://) coming soon.
+![wireframe - flow](https://i.imgur.com/bZKlEfH.jpg)
 
 ### Mockups
 
-* [Welcome Page]()
+* [Main/Welcome Page](coming up)
 
-- [Profiles Page]()
+- [Profiles Page](coming up)
 
-* [Resume page]()
+* [Resume page](coming up)
 
 
 ## Getting Started
