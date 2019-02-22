@@ -1,0 +1,19 @@
+.home{
+    overflow: hidden;
+}
+
+.home-hero-wave{
+    position: relative;
+    transform: scale(1.1,1) translate(-0.1%,-50%);
+    min-width: 500px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-features-wave{
+    position: relative;
+    transform: scale(1.1,1) translate(1.2%, -38%);
+    min-width: 500px;
+    object-fit: cover;
+    z-index: -2;
+}
