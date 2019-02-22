@@ -41,7 +41,9 @@ You can find the project's wireframe below which depicts the basic flow of our w
 
 ### Mockups
 
-* ![Main/Welcome Page](https://i.imgur.com/7U2EmqC.jpg)
+* [Main/Welcome Page] 
+
+  ![Main/Welcome Page](https://i.imgur.com/7U2EmqC.jpg)
 
 - [Profiles Page](coming up)
 
