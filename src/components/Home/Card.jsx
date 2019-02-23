@@ -3,13 +3,13 @@ import {Link} from 'react-router-dom';
 
 function Card(props){
     return (
-        <div className="col-md-4 col-sm-6 col-xs-9 my-2">
+        <div className="col-md-4 col-sm-6 col-xs-12 my-2">
             <div className="card mx-auto">
                 <img className="card-img-top" src={props.imagepath} alt={props.name}/>
                 <div className="card-body">
-                    <h5 className="card-title">{props.name}</h5>
-                    <p className="card-text">{props.children}</p>
-                    <Link to="/" className="card-link">Find out more <i class="fas fa-angle-down"></i></Link>
+                    <h4 className="card-title">{props.name}</h4>
+                    <div className="card-text">{props.children}</div>
+                    <Link to="/" className="card-link">Find out more <i className="fas fa-angle-down"></i></Link>
                 </div>
             </div>
         </div>
