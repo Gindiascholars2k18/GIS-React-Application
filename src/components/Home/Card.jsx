@@ -8,7 +8,7 @@ function Card(props){
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">{props.children}</p>
-                    <a href="/" className="card-link">Find out more<span className="glyphicon glyphicon-menu-down"></span></a>
+                    <a href="/" className="card-link">Find out more <i class="fas fa-angle-down"></i></a>
                 </div>
             </div>
         </div>

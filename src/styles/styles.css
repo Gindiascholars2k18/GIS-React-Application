@@ -28,7 +28,7 @@
 
 .home-features{
     position: relative;
-    transform: scale(1.1,1) translate(1.1%,-18vw);
+    transform: scale(1.1,1) translate(1.1%,-26vw);
     text-align: center;
     background-image: url('../images/home/features_wave.svg');
     background-color: white;
@@ -38,15 +38,38 @@
     z-index: 0;
 }
 
+.home-features .container{
+    transform: scale(1.1,1) translate(1.1%,-78px);
+}
+
+.home-features h1 {
+    font-size: 1.5em;
+}
+
+.home-features h5 {
+    font-size: 1em;
+}
+
 .home-features .card{
     max-width: 250px;
     border: 1px solid #6c1cd7;
     border-radius: 25px;
+    box-shadow: 0px 2px 10px #333;
 }
 
 .home-features .card-link{
     position: relative;
     color: #6c1cd7!important;
+}
+
+.home-features ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.home-features .fa-check-circle{
+    color: #6c1cd7!important;
+    margin-right: 3px; 
 }
 
 .home-bg-gradient{
@@ -64,6 +87,40 @@
     color: #6c1cd7!important;
 }
 
-.welcome-section a:hover{
-    text-decoration: none;
+@media only screen and (min-width: 400px){
+    .home-features{
+        transform: scale(1.1,1) translate(1.1%,-24vw);
+    }
+    .home-features .container{
+        transform: translateY(-9vw);
+    }
+
+    .home-features h1{
+        font-size: 2em;
+    }
+
+    .home-features h5{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .home-features{
+        transform: scale(1.1,1) translate(1.1%,-18vw);
+    }
+
+    .home-features .container{
+        transform: translateY(-12vw);
+    }
+
+    .home-features h1{
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .home-features .container{
+        transform: translateY(-25px);
+        padding: 10px;
+    }
 }
