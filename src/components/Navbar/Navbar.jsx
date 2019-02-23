@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../styles/Navbar/navigation.css';
 import NavItem from './NavItem.jsx';
 function Navbar(props) {
     return (

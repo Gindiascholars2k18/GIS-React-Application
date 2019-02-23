@@ -5,7 +5,7 @@ import heroWave from '../../images/home/hero_wave.svg';
 import freelanceProjects from '../../images/home/freelance_projects.svg'
 import mockInterview from '../../images/home/mock_interview.svg'
 import privateProjects from '../../images/home/private_projects.svg'
-import '../../styles/Home/home.css';
+import '../../styles/styles.css';
 import Card from './Card.jsx';
 
 function Home(props){

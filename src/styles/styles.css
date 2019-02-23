@@ -1,0 +1,69 @@
+.navbar-brand{
+    color: #707070!important;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: #707070!important;
+}
+
+.active .nav-link, .nav-link:hover{
+    text-decoration: underline;
+    color: #6c1cd7!important;
+}
+
+.home{
+    overflow: hidden;
+}
+
+.home-hero-wave{
+    position: relative;
+    transform: scale(1.1,1) translate(0%,-50%);
+    min-width: 500px;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.home-features{
+    position: relative;
+    transform: scale(1.1,1) translate(1.1%,-18vw);
+    text-align: center;
+    background-image: url('../images/home/features_wave.svg');
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 800px;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.home-features .card{
+    max-width: 250px;
+    border: 1px solid #6c1cd7;
+    border-radius: 25px;
+}
+
+.home-features .card-link{
+    position: relative;
+    color: #6c1cd7!important;
+}
+
+.home-bg-gradient{
+    background-image: linear-gradient(to right,#6c1cd7,#151e7b);
+}
+
+.welcome-section button{
+    width: 100%;
+    height:40px;
+    border-radius: 20px;
+    box-shadow: 0px 3px #bbb;
+}
+
+.welcome-section a{
+    color: #6c1cd7!important;
+}
+
+.welcome-section a:hover{
+    text-decoration: none;
+}

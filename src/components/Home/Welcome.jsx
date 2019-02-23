@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../styles/Home/welcome.css';
 import profileGraphic from '../../images/home/profile_graphic.svg';
 
 function Welcome(props){
