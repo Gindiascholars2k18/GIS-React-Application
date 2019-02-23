@@ -52,26 +52,26 @@ function Home(props){
                     <div className="row mt-5 align-items-center">
                         <Card name="Mock Interviews" imagepath={mockInterview}>
                             <ul className="features-list">
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 2</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 1</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 3</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 4</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 2</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 1</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 3</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 4</li>
                             </ul>
                         </Card>
                         <Card name="Freelance Projects" imagepath={freelanceProjects}>
                             <ul className="features-list">
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 1</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 2</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 3</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 4</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 1</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 2</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 3</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 4</li>
                             </ul>
                         </Card>
                         <Card name="Private Projects" imagepath={privateProjects}>
                             <ul className="features-list">
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 1</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 2</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 3</li>
-                                <li className="my-3"><i class="fas fa-check-circle"></i>Lorem ipsum point 4</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 1</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 2</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 3</li>
+                                <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 4</li>
                             </ul>
                         </Card>
                     </div>
