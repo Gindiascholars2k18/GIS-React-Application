@@ -1,9 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import NavItem from './NavItem.jsx';
 function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-white">
-            <a className="navbar-brand" href="/">GIS</a>
+            <Link className="navbar-brand" to="/">GIS</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
             </button>

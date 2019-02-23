@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Navbar from '../Navbar/Navbar.jsx';
 import heroWave from '../../images/home/hero_wave.svg';
 import freelanceProjects from '../../images/home/freelance_projects.svg'
@@ -23,10 +24,10 @@ function Home(props){
                         </em></small></h4>
                         <div className="row mt-4">
                             <div className="col-6">
-                                <a href="/"><button className="btn home-bg-gradient home-button text-white p-1">See Profiles</button></a>
+                                <Link to="/"><button className="btn home-bg-gradient home-button text-white p-1">See Profiles</button></Link>
                             </div>
                             <div className="col-6">
-                                <a href="/"><h4><small>Fork On Github</small></h4></a>
+                                <Link to="/"><h4><small>Fork On Github</small></h4></Link>
                             </div>
                         </div>
                     </div>
