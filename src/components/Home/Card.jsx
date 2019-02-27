@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function Card(props){
     return (
-        <div className="col-md-4 col-sm-6 col-xs-12 my-2">
+        <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 my-4">
             <div className="card mx-auto">
                 <img className="card-img-top" src={props.imagepath} alt={props.name}/>
                 <div className="card-body">

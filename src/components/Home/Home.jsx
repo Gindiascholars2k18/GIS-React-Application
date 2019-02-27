@@ -14,21 +14,21 @@ function Home(props){
         <div className="home">
             <Navbar/>
             <div className="welcome-section container">
-                <div className="row justify-content-around align-items-center">
-                    <div className="jumbotron bg-white col-lg-7 col-md-6 col-xs-12">
-                        <div className="row align-items-center">
+                <div className="row justify-content-between align-items-center">
+                    <div className="bg-white col-lg-7 col-md-6 col-xs-12">
+                        <div className="row welcome-header-row align-items-center justify-content-between">
                             <div className="col-lg-5 welcome-header col-md-12">
                                 <h1 className="text-secondary text-center">Welcome to</h1>
                             </div>
-                            <div className="col-lg-7 welcome-header col-md-12">
-                                <h1 className="text-white text-center p-2 home-bg-gradient"><strong><em>GIS Profile App</em></strong></h1>
+                            <div className="col-lg-7 welcome-header col-md-12 home-bg-gradient">
+                                <h1 className="text-white text-center p-2"><strong><em>GIS Profile App</em></strong></h1>
                             </div>
                         </div>
-                        <div className="info-container">
-                            <h4><small><em>
+                        <div className="info-container text-center">
+                            <h3><small><em>
                                 This is a GIS profile web app, that aims to provide
                                 Google India scholarship scholars profile to users or recruiter.
-                            </em></small></h4>
+                            </em></small></h3>
                             <div className="row mt-4">
                                 <div className="col-6">
                                     <Link to="/" className="home-button"><button className="btn home-bg-gradient text-white p-1">See Profiles</button></Link>
@@ -49,7 +49,7 @@ function Home(props){
                 <div className="container">
                     <h1 className="text-white">What we do?</h1>
                     <h5 className="text-white">Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur</h5>
-                    <div className="row mt-5 align-items-center">
+                    <div className="row mt-5 align-items-center justify-content-around">
                         <Card name="Mock Interviews" imagepath={mockInterview}>
                             <ul className="features-list">
                                 <li className="my-3"><i className="fas fa-check-circle"></i>Lorem ipsum point 2</li>

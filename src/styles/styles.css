@@ -1,7 +1,12 @@
 .navbar-brand{
     color: #707070!important;
+    padding: 3px;
     font-size: 1.5em;
     font-weight: 500;
+}
+
+.navbar{
+    padding: 1rem 2rem;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -61,14 +66,15 @@
     color: #707070!important;
 }
 
-.active .nav-link{
-    text-decoration: underline;
+.active .nav-link, .nav-link:hover{
     color: #6c1cd7!important;
 }
 
-.nav-link:hover{
-    color: #6c1cd7!important;
+.active{
+    border-bottom: 1.5px solid #6c1cd7;
+    background-color: #fff;
 }
+
 
 .home{
     overflow: hidden;
@@ -81,7 +87,7 @@
 
 .home-hero-wave{
     position: relative;
-    transform: scale(1.1,1) translate(0%,-50%);
+    transform: scale(1.1,1) translate(0%,-45%);
     object-fit: contain;
     z-index: -2;
 }
@@ -90,17 +96,16 @@
     position: relative;
     transform: scale(1.1,1) translate(1.1%,-16vw);
     text-align: center;
-    background-image: url('../images/home/features_wave.svg');
+    background-image: linear-gradient(to right, #6c1cd7,#151e7b);
     background-color: white;
     background-repeat: no-repeat;
-    min-height: 800px;
     height: auto;
     object-fit: contain;
     z-index: 0;
 }
 
 .home-features .container{
-    transform: translate(-1.1%,-72px);
+    transform: translate(-1.1%,-2%);
 }
 
 .home-features h1 {
@@ -152,21 +157,27 @@
     background-position: right center;
 }
 
-.welcome-section .home-button:hover{
-    text-decoration: none;
-}
-
 .welcome-section a{
     color: #6c1cd7!important;
 }
 
+.welcome-section a:hover{
+    color: #4a0ab5!important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px){
+    .home-features{
+        background-size: 100% 8%;
+    }
+}
 
 @media only screen and (min-width: 410px){
     .home-features{
         transform: scale(1.1,1) translate(1.1%,-16vw);
     }
     .home-features .container{
-        transform: translate(-1.1%,-9vw);
+        transform: translate(-1.1%, -10vw);
     }
 
     .home-features h1{
@@ -181,6 +192,16 @@
 @media only screen and (min-width: 576px){
     .home-features{
         transform: scale(1.1,1) translate(1.1%,-18vw);
+        position: relative;
+        /* transform: scale(1.1,1) translate(1.1%,-16vw); */
+        text-align: center;
+        background-image: url('../images/home/features_wave.svg');
+        background-color: white;
+        background-repeat: no-repeat;
+        min-height: 810px;
+        height: auto;
+        object-fit: contain;
+        z-index: 0;
     }
 
     .home-features .container{
@@ -205,8 +226,11 @@
         margin-left: 0px;
     }
 
-    .info-container{
-        padding: 0px 20%;
+    .welcome-section .welcome-header-row{
+        margin-right: 0px;
     }
 
+    .info-container{
+        padding: 0px 10%;
+    }
 }
