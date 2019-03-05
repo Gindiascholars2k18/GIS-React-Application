@@ -1,0 +1,236 @@
+.navbar-brand{
+    color: #707070!important;
+    padding: 3px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.navbar{
+    padding: 1rem 2rem;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+   display: block;
+   background-color: #444;
+   height: 3px;
+   width: 25px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   position: relative;
+   left: 0;
+   opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+   -webkit-transition: transform .35s ease-in-out;
+   -moz-transition: transform .35s ease-in-out;
+   -o-transition: transform .35s ease-in-out;
+   transition: transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    top: -13px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: #707070!important;
+}
+
+.active .nav-link, .nav-link:hover{
+    color: #6c1cd7!important;
+}
+
+.active{
+    border-bottom: 1.5px solid #6c1cd7;
+    background-color: #fff;
+}
+
+
+.home{
+    overflow: hidden;
+}
+
+.home > .jumbotron{
+    border: none;
+    border-radius: 0px;
+}
+
+.home-hero-wave{
+    position: relative;
+    transform: scale(1.1,1) translate(0%,-45%);
+    object-fit: contain;
+    z-index: -2;
+}
+
+.home-features{
+    position: relative;
+    transform: scale(1.1,1) translate(1.1%,-16vw);
+    text-align: center;
+    background-image: linear-gradient(to right, #6c1cd7,#151e7b);
+    background-color: white;
+    background-repeat: no-repeat;
+    height: auto;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.home-features .container{
+    transform: translate(-1.1%,-2%);
+}
+
+.home-features h1 {
+    font-size: 1.5em;
+}
+
+.home-features h5 {
+    font-size: 1em;
+}
+
+.home-features .card{
+    max-width: 250px;
+    border: 1px solid #6c1cd7;
+    border-radius: 25px;
+    box-shadow: 0px 2px 10px #333;
+}
+
+.home-features .card-link{
+    position: relative;
+    color: #6c1cd7!important;
+}
+
+.home-features ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.home-features .fa-check-circle{
+    color: #6c1cd7!important;
+    margin-right: 3px; 
+}
+
+.home-bg-gradient{
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to right,#6c1cd7 0%,#151e7b 51%, #6c1cd7 100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+
+.welcome-section button{
+    width: 100%;
+    height:40px;
+    border-radius: 20px;
+    box-shadow: 0px 3px #bbb;
+}
+
+.welcome-section button:hover{
+    background-position: right center;
+}
+
+.welcome-section a{
+    color: #6c1cd7!important;
+}
+
+.welcome-section a:hover{
+    color: #4a0ab5!important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px){
+    .home-features{
+        background-size: 100% 8%;
+    }
+}
+
+@media only screen and (min-width: 410px){
+    .home-features{
+        transform: scale(1.1,1) translate(1.1%,-16vw);
+    }
+    .home-features .container{
+        transform: translate(-1.1%, -10vw);
+    }
+
+    .home-features h1{
+        font-size: 2em;
+    }
+
+    .home-features h5{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .home-features{
+        transform: scale(1.1,1) translate(1.1%,-18vw);
+        position: relative;
+        /* transform: scale(1.1,1) translate(1.1%,-16vw); */
+        text-align: center;
+        background-image: url('../images/home/features_wave.svg');
+        background-color: white;
+        background-repeat: no-repeat;
+        min-height: 810px;
+        height: auto;
+        object-fit: contain;
+        z-index: 0;
+    }
+
+    .home-features .container{
+        transform: translate(-1.1%,-12vw);
+    }
+
+    .home-features h1{
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .home-features .container{
+        transform: translate(-1.1%,-25px);
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .welcome-section .welcome-header{
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .welcome-section .welcome-header-row{
+        margin-right: 0px;
+    }
+
+    .info-container{
+        padding: 0px 10%;
+    }
+}
