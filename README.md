@@ -47,7 +47,7 @@ You can find the project's wireframe below which depicts the basic flow of our w
 
 - [Profiles Overview Page]
   
-  ![Profiles overview page](https://i.imgur.com/H8BDv9q.jpg)
+  ![Profiles overview page](https://i.imgur.com/0VrwrBb.jpg)
   
 - [Profiles Detail Page] 
 
