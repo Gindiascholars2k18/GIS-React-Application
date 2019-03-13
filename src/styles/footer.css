@@ -1,0 +1,30 @@
+.footerPage{
+
+	background-color: rebeccapurple;
+	color: white;
+	height: 300px;
+  	width: 100%;
+  	border-radius: 90px 90px 0 0;
+    
+  	
+
+
+}
+
+
+
+.footeCopyright{
+
+}
+
+.footerPage h3{
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+
+.horizontalLine{
+	
+	width: 75%;
+	background-color: white;
+}

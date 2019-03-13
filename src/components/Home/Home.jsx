@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Navbar from '../Navbar/Navbar.jsx';
+import Footer from '../Navbar/Footer.jsx';
+
 import heroWave from '../../images/home/hero_wave.svg';
 import freelanceProjects from '../../images/home/freelance_projects.svg'
 import mockInterview from '../../images/home/mock_interview.svg'
@@ -77,6 +79,7 @@ function Home(props){
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
