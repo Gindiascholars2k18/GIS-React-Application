@@ -1,21 +1,19 @@
-.footerPage{
-
-	background-color: rebeccapurple;
-	color: white;
-	height: 300px;
-  	width: 100%;
-  	border-radius: 90px 90px 0 0;
-    
-  	
-
-
-}
 
 
 
-.footeCopyright{
+ .footerPage{
+        transform: scale(1.1,1) translate(1.1%,-18vw);
+        position: relative;
+        text-align: center;
+        background-image: url('../images/home/footer_design.svg') linear-gradient(to right, #6c1cd7,#151e7b);
+        background-color: white;
+        color: white;
+        background-repeat: no-repeat;
+               height: auto;
+        object-fit: contain;
+        z-index: 0;
+    }
 
-}
 
 .footerPage h3{
 	text-transform: uppercase;
@@ -28,3 +26,21 @@
 	width: 75%;
 	background-color: white;
 }
+
+
+.footerPlace{
+	position: relative;
+	bottom: 370px;
+}
+
+.footerCopyright{
+	background-color: midnightblue;
+	position: relative;
+	bottom: 370px;
+}
+
+.footerCopyright, .footerPage a{
+	color:  white;
+	text-decoration: none;
+}
+

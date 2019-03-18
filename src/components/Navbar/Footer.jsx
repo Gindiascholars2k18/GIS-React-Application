@@ -1,15 +1,18 @@
 import React from 'react';
+import footerDesign from '../../images/home/footer_design.svg';
 import '../../styles/footer.css';
 
 function Footer(props) {
     return (
-        <div>
-            <div >
-            <footer  className="footerPage">
+        
+            <footer  className="footerPage ">
+                <img src={footerDesign}  alt="heroWave"/>
                 
-                <div className=" container mt-5 mb-4 text-center text-md-left">
-                        <div className=" row mt-3">                          
-                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
+                    <div className=" footerPlace container">  
+                       
+
+                        <div className="  row mt-3">                          
+                          <div className="  col-md-3 col-lg-3 col-xl-3 mb-4">
 
                             <h3>
                               <strong>Organization Profile</strong>
@@ -19,7 +22,7 @@ function Footer(props) {
                               A group of elite developers, mostly into web and android specialization.
                             </p>
                           </div>                          
-                         <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
+                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
                                 <h3>
                                   <strong>Contact</strong>
                                 </h3>
@@ -37,7 +40,7 @@ function Footer(props) {
                                   <i className="fa fa-print mr-3" /> +91 9347347384
                                 </p>
                           </div>
-                         <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
+                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
                                 <h3>
                                   <strong>Products</strong>
                                 </h3>
@@ -68,19 +71,22 @@ function Footer(props) {
                                                   <div className="input-group-text">@</div>
                                                 </div>
                                                 <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Email-ID"/>
+                                                <button className="btn home-bg-gradient text-white my-2">Subscribe</button>
                                               </div>
-                                 </form>
-                          </div>                           
+                                 </form>                                 
+                          </div>                                                
+                        </div>  
+                    </div>
+                    <div className=" footerCopyright text-center py-3 container-fluid">
+                                                &copy; {new Date().getFullYear()} Copyright :<a href="#!">Thank you for visiting our web application!! </a>
                         </div> 
-                        <div className="container-fluid footerCopyright text-center py-3">
-                        &copy; {new Date().getFullYear()} Copyright : <a href="#!">Thank you for visiting our web application!! </a>
-                </div>                      
-                </div>
-                
+
             </footer>
-           </div>
-        </div>
+           
+        
     )
 }
 
 export default Footer;
+
+
