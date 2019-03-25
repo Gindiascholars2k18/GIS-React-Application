@@ -5,85 +5,66 @@ import '../../styles/footer.css';
 function Footer(props) {
     return (
         
-            <footer  className="footerPage ">
-                <img src={footerDesign}  alt="heroWave"/>
-                
-                    <div className=" footerPlace container">  
-                       
-
-                        <div className="  row mt-3">                          
-                          <div className="  col-md-3 col-lg-3 col-xl-3 mb-4">
-
-                            <h3>
-                              <strong>Organization Profile</strong>
-                            </h3>
-                            <hr className="horizontalLine mb-4 mt-0 d-inline-block mx-auto" />
-                            <p>
-                              A group of elite developers, mostly into web and android specialization.
-                            </p>
-                          </div>                          
-                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
-                                <h3>
-                                  <strong>Contact</strong>
-                                </h3>
-                                <hr className="horizontalLine mb-4 mt-0 d-inline-block mx-auto"/>
-                                <p>
-                                  <i className="fa fa-home mr-3" />Pan India
-                                </p>
-                                <p>
-                                  <i className="fa fa-envelope mr-3" /> info@example.com
-                                </p>
-                                <p>
-                                  <i className="fa fa-phone mr-3" /> +91 9834734748
-                                </p>
-                                <p>
-                                  <i className="fa fa-print mr-3" /> +91 9347347384
-                                </p>
-                          </div>
-                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4">
-                                <h3>
-                                  <strong>Products</strong>
-                                </h3>
-                                <hr className="horizontalLine mb-4 mt-0 d-inline-block mx-auto"/>
-                                <p>
-                                  <a href="#!">Home</a>
-                                </p>
-                                <p>
-                                  <a href="#!">About</a>
-                                </p>
-                                <p>
-                                  <a href="#!">Profiles</a>
-                                </p>
-                                <p>
-                                  <a href="#!">Portfolio</a>
-                                </p>
-                          </div>
-                          <div className=" col-md-3 col-lg-3 col-xl-3 mb-4"> 
-
-                                <h3>
-                                  <strong>Subscribe to our tutorials</strong>
-                                </h3>
-                                <hr className="horizontalLine mb-4 mt-0 d-inline-block mx-auto"/>
-                                <form>
-                                        <label className="sr-only" for="inlineFormInputGroup">Email ID</label>
-                                              <div className="input-group mb-2">
-                                                <div className="input-group-prepend">
-                                                  <div className="input-group-text">@</div>
-                                                </div>
-                                                <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Email-ID"/>
-                                                <button className="btn home-bg-gradient text-white my-2">Subscribe</button>
-                                              </div>
-                                 </form>                                 
-                          </div>                                                
-                        </div>  
-                    </div>
-                    <div className=" footerCopyright text-center py-3 container-fluid">
-                                                &copy; {new Date().getFullYear()} Copyright :<a href="#!">Thank you for visiting our web application!! </a>
-                        </div> 
-
-            </footer>
-           
         
+          <footer id="footer" >
+    
+
+            <div className="footer-top">
+                
+                <div className="container">
+
+                  <div className="row">
+                 
+                      <div className="col-lg-3 col-md-6 footer-info">
+
+                          <h3> <strong>Profile</strong></h3>
+                            <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
+                          <p> A group of elite developers, mostly into web and android specialization.</p>
+                      </div>
+                      <div className="col-lg-3 col-md-6 footer-links">
+
+                          <h3> <strong>Useful Links</strong></h3>
+                            <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">About us</a></li>
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Terms of service</a></li>
+                              <li><a href="#">Privacy policy</a></li>
+                          </ul>
+                      </div>
+                      <div className="col-lg-3 col-md-6 footer-contact">
+
+                          <h3><strong>Contact Us</strong></h3>
+                            <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
+                          <p>
+                            A108 Adam Street <br/>
+                            New York, NY 535022<br/>
+                            United States <br/>
+                            <strong>Phone:</strong> +1 5589 55488 55<br/>
+                            <strong>Email:</strong> info@example.com<br/>
+                          </p>                      
+
+                        
+                      </div>
+                      <div className="col-lg-3 col-md-6 footer-newsletter">
+                          <h3><strong>Our Newsletter</strong></h3>
+                            <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
+                          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum d.</p>
+                          <form action="" method="post">
+                            <input type="email" placeholder="enter email" name="email"/><input type="submit"  value="Subscribe"/>
+                          </form>
+                      </div>
+                  </div>
+                </div> 
+                <div className="container text-center">
+                    <div className="copyright">
+                      &copy; {new Date().getFullYear()} Copyright <strong>GIS</strong>. All Rights Reserved
+                    </div>
+                  </div>                
+            </div>
+            
+          </footer>
     )
 }
 
