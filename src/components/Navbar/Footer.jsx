@@ -1,5 +1,5 @@
 import React from 'react';
-import footerDesign from '../../images/home/footer_design.svg';
+//import footerDesign from '../../images/home/footer_design.svg';
 import '../../styles/footer.css';
 
 function Footer(props) {
@@ -26,11 +26,11 @@ function Footer(props) {
                           <h3> <strong>Useful Links</strong></h3>
                             <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
                           <ul>
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">About us</a></li>
-                              <li><a href="#">Services</a></li>
-                              <li><a href="#">Terms of service</a></li>
-                              <li><a href="#">Privacy policy</a></li>
+                              <li><a href="#!">Home</a></li>
+                              <li><a href="#!">About us</a></li>
+                              <li><a href="#!">Services</a></li>
+                              <li><a href="#!">Terms of service</a></li>
+                              <li><a href="#!">Privacy policy</a></li>
                           </ul>
                       </div>
                       <div className="col-lg-3 col-md-6 footer-contact">
@@ -38,10 +38,10 @@ function Footer(props) {
                           <h3><strong>Contact Us</strong></h3>
                             <hr className="horizontaLine mb-4 mt-0 d-inline-block mx-auto" />
                           <p>
-                            A108 Adam Street <br/>
-                            New York, NY 535022<br/>
-                            United States <br/>
-                            <strong>Phone:</strong> +1 5589 55488 55<br/>
+                            Freelance Group <br/>
+                            Pan India<br/>
+                            India<br/>
+                            <strong>Phone:</strong>+91 9223832323<br/>
                             <strong>Email:</strong> info@example.com<br/>
                           </p>                      
 
