@@ -1,17 +1,23 @@
-#footer {
-  width: 100%;
-
-  background: url("../images/home/footer_design.svg") center bottom no-repeat;
-  background-size:cover;
-  color: white;
- padding: 300px 0 150px 0;
-}
-
 
 .horizontaLine{
 	background-color: white;
 	width: 60%;
 }
+
+#footer {
+  width: 100%;
+  background: url("../images/home/footer_design.svg") center bottom no-repeat;
+  background-size:cover;
+  color: white;
+  padding: 300px 0 0 0;
+}
+
+#footer .footer-top {
+
+   background-image: linear-gradient(to bottom, #5b1fc4,#151e7b);
+
+}
+
 #footer .footer-top .footer-info .footer-links .footer-contact .footer-newsletter  {
   margin-bottom: 40px;
 }
@@ -51,15 +57,9 @@
   color: #74b5fc;
 }
 
-
-#footer .footer-top {
-  margin-bottom: 30px;
-}
-
 #footer .footer-top .footer-contact p {
   line-height: 26px;
 }
-
 
 
 #footer .footer-top .social-links a {
@@ -85,23 +85,26 @@
 
 #footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
-  padding: 6px 8px;
-  width: 65%;
+  width: 50%;
+  height:40px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-align: center;
+
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
+  width: 50%;
+  height:40px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-image: linear-gradient(to right,#151e7b 0%, #6c1cd7 100%);
   color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
+ font-weight: bold;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background-image: linear-gradient(to left,#151e7b 0%, #6c1cd7 100%);
+  color: #fff;
 }
-
 

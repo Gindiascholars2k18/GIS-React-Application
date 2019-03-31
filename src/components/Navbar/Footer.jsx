@@ -4,9 +4,8 @@ import '../../styles/footer.css';
 
 function Footer(props) {
     return (
-        
-        
-          <footer id="footer" >
+       
+           <footer id="footer" >
     
 
             <div className="footer-top">
@@ -64,10 +63,9 @@ function Footer(props) {
                   </div>                
             </div>
             
-          </footer>
+</footer>
+         
     )
 }
 
 export default Footer;
-
-
