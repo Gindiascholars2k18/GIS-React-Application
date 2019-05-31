@@ -16,14 +16,12 @@ The moderator of this project is [@Ckbhatia](https://github.com/Ckbhatia).
 The collaborators of this project are:
 
 * [@sb39](https://github.com/sb39)
-* [@RohitThapa](https://github.com/RohitThapa)
 * [@prarora98](https://github.com/prarora98)
 * [@Kundan28](https://github.com/Kundan28)
 * [@revanthgss](https://github.com/revanthgss)
 * [@RuhanRK](https://github.com/RuhanRK)
 * [@manikkaushik](https://github.com/manikkaushik)
 * [@vattytrivedi](https://github.com/vattytrivedi)
-* [@manojkumaraut](https://github.com/manojkumaraut)
 
 ## Technologies
 
