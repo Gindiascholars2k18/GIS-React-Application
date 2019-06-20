@@ -1,0 +1,108 @@
+
+.horizontaLine{
+	background-color: white;
+	width: 60%;
+}
+
+#footer {
+  width: 100%;
+  background: url("../images/home/footer_design.svg") center bottom no-repeat  ;
+  background-size:cover;
+  color: white;
+  padding: 300px 0 0 0;
+
+}
+
+#footer .footer-top {
+background-image: linear-gradient(to right,#551cbe 0%, #521cbe 100%);
+}
+#footer .footer-top .footer-info .footer-links .footer-contact .footer-newsletter  {
+  margin-bottom: 40px;
+}
+
+#footer .footer-top .footer-info .footer-links .footer-contact  .footer-newsletter  h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  padding: 5px 0 5px 0;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+ text-decoration: none;
+  color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #0067d5;
+  color: #fff;
+}
+
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  width: 50%;
+  height:40px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-align: center;
+
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  width: 50%;
+  height:40px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #5a3da0;
+  color: #fff;
+ font-weight: bold;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background-color: #000000 ;
+  color: #ffffff;
+}
+
